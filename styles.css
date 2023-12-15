@@ -1,0 +1,259 @@
+/* styles.css */
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header, nav, section, footer {
+    background-color: #000;
+  }
+  
+  header, nav, footer {
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00f;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  #searchInput {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  section {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-details {
+    flex: 1;
+  }
+  
+  .profile-details h2 {
+    color: #00f;
+  }
+  
+  .profile-details p {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details button {
+    background-color: #00f;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-details button:hover {
+    background-color: #005;
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    border-radius: 5px;
+    resize: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #00f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005;
+  }
+  
+  .post, .friend-suggestions li {
+    background-color: #444;
+    margin: 20px 0;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .friend-suggestions h2 {
+    color: #00f;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .post p {
+    margin: 0;
+  }
+  
+  .post span {
+    color: #777;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .post button {
+    background-color: #00f;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+  }
+  
+  .post button:hover {
+    background-color: #005;
+  }
+  
+  /* styles.css */
+  /* ... (styles from the previous examples) */
+  
+  .post {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+  }
+  
+  .post:hover {
+    background-color: #333;
+  }
+  
+  .post-header {
+    color: #00f;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-buttons {
+    display: flex;
+  }
+  
+  .post-buttons button {
+    background-color: #444;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .post-buttons button:hover {
+    background-color: #555;
+  }
+  
+  .likes-count {
+    font-size: 14px;
+  }
+  
+  .comments-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comments-list li {
+    margin-bottom: 5px;
+  }
